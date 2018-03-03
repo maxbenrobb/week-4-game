@@ -15,6 +15,14 @@ h3 {
     padding: 10px;
 }
 
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 li {
     font-family: 'Roboto', sans-serif;
     padding: 5px;
@@ -24,7 +32,7 @@ li {
 
 #score {
     font-family: 'Roboto', sans-serif;
-    float: static;
+    float: left;
 }
 #random-number {
     font-family: 'Roboto', sans-serif;
@@ -78,12 +86,11 @@ li {
     background-color: greenyellow;
     font-size: 20px;
     font-weight: bold;
-    overflow: auto;
+    float: left;
 }
 
 #crystals {
     font-family: 'Roboto', sans-serif;
-    float: left;
 }
 
 img {
